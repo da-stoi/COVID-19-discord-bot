@@ -72,7 +72,7 @@ function helpCommand(arguments, receivedMessage) {
       title: "It's too late!",
       footer: "Data from WorldMeters.info via javieraviles's covidAPI. | Bot written by Daniel Stoiber"
     }
-  }).then(msg => { msg.delete(20000) });
+  });
 
 }
 
