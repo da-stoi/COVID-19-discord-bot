@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const auth = require('./auth.json');
 const package = require('./package.json');
 const axios = require("axios");
 
@@ -198,4 +197,4 @@ function tagCommand(arguments, receivedMessage) {
     receivedMessage.channel.send("<@" + receivedMessage.author.id + "> please enter a tag type.")
   }
 }
-client.login(process.env.token);
+client.login(process.env.TOKEN);
