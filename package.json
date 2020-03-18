@@ -1,0 +1,16 @@
+{
+  "name": "COVID-19-Discord-Bot",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "nodemon bot.js",
+    "heroku": "node bot.js"
+  },
+  "author": "Daniel Stoiber",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^11.6.2",
+    "nodemon": "^2.0.2"
+  }
+}
